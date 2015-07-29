@@ -36,7 +36,7 @@ class CalculationsController < ApplicationController
   def payment
 
     apr = params["calc_one"].to_f
-    @apr = apr/100
+    @apr = apr/10
     @years = params["calc_two"].to_i
     @principal = params["calc_three"].to_f
 
