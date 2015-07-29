@@ -1,0 +1,13 @@
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Payment</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="lead">A <b><%= @years %></b> year loan of <b><%= number_to_currency(@principal) %></b>, with an annual interest rate of <b><%= @apr %>%</b>, requires a monthly payment of <b><%= number_to_currency(@payment) %></b>.</p>
+      </div>
+    </div>
+  </div>
+</div>
